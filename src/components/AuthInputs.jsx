@@ -35,7 +35,7 @@ export default function AuthInputs() {
       <ControlDiv>
         <Input
           label="Email"
-          $invalid={emailNotValid}
+          invalid={emailNotValid}
           type="email"
           // style={{
           //   backgroundColor: emailNotValid ? "#fed2d2" : "#d1d5db",
